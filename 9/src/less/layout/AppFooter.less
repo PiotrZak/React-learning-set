@@ -1,0 +1,29 @@
+@import '../abstracts/_variables.less';
+
+.l-footer {
+  &-container {
+    background-color: @dark-blue;
+    min-height: 100px;
+    margin: 0;
+  }
+
+  &-paragraph {
+    margin-top: 15px;
+    color: @white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &-icon {
+    margin: 0 5px 0 0;
+  }
+
+  &-link {
+    color: @red;
+    margin: 0 0 0 5px;
+    &:hover {
+      color: @white;
+    }
+  }
+}

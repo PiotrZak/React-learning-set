@@ -1,0 +1,21 @@
+@import '../abstracts/_variables.less';
+
+.c-loading {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 50%;
+  left: 50%;
+  padding: 15px;
+  border: 6px solid @dark-blue;
+  border-top: 6px solid @dark-blue;
+  border-right-color: @red;
+  border-radius: 22px;
+  animation: rotate 1s infinite linear;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
